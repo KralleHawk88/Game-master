@@ -1,0 +1,20 @@
+.center{
+  text-align: center;
+}
+
+.box{
+  border-style: solid;
+}
+
+.wrapper{
+  background: transparent url(Wallpaper_water.jpg) repeat center center;
+  width: auto;
+  height: auto;
+}
+
+.fontBig{
+  font-style: oblique;
+  font-family: monospace;
+  font-size: 100;
+
+}

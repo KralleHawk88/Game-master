@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" type="text/css" href="index.css">
     <meta charset="utf-8">
     <title>Idle Upgrader</title>
   </head>
-  <body>
-
+  <body class="wrapper">
+    <input id="click" type=button onclick="click();">
+    <h1>Bubanis</h1>
+    <div>
+    <p id="Bank" style="text-align:bottom, left"></p>
+    </div>
   </body>
 </html>
+<script type="text/javascript">
+  var Bubanis = 1;
+  var i = 1;
+  var ClickValue = 1;
+  setInterval (MoneyBank, 1000)
+  function MoneyBank(){
+    Bubanis += i;
+    document.getElementById("Bank").innerHTML=Bubanis;
+  }
+
+  function click(){
+    Bubanis += ClickValue;
+    document.getElementById("click").innerHTML=click;
+  }
+</script>
